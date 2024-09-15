@@ -1,0 +1,73 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    padding: 0%;
+    background-color: rgba(172, 233, 237, 0.477);
+}
+h1{
+    text-align: center;
+    color:#a34f69 ;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(230, 242, 246);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #a34f69 ;
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #a34f69 ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(220, 253, 255);
+    
+}
+legend{
+    font-weight: bolder;
+    text-align: left;
+    color: rgb(96, 55, 55);
+
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color:rgb(96, 55, 55);
+}
+input,textarea{
+    width: calc(100% 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(96, 55, 55);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    background-color:  rgb(203, 206, 206);
+    color: rgb(96, 55, 55) ;
+    border: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button:hover{
+    background-color: rgb(109, 119, 119);
+}
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
